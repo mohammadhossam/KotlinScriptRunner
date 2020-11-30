@@ -116,7 +116,6 @@ public class Controller implements DocumentListener, ActionListener {
             protected void done() {
                 view.getRunning().setVisible(false);
                 view.getError().setVisible(zeroState);
-                System.out.println(zeroState);
             }
         };
 
