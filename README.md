@@ -8,7 +8,7 @@ To run the tool, just head to `Controller.java` class and run it and a window of
 Kotlin script. To execute your script, click on **Run** button and wait for the output to appear in the **Output** pane or errors -if any- in the **Errors**
 pane (It may take a little bit of time until the tool processes the script).
 
-The tool also supports highlightin some keywords in Kotlin programming languages. The highlighting is done live while you write the code. Currently supported
+The tool also supports highlighting some keywords in Kotlin programming languages. The highlighting is done live while you write the code. Currently supported
 keywords are (more will be added soon):
 1. `fun`
 2. `if`
