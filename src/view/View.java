@@ -54,14 +54,16 @@ public class View extends JFrame {
         JLabel editor = new JLabel("Editor Pane:");
         insets = editor.getInsets();
         size = editor.getPreferredSize();
-        editor.setBounds(insets.left + 20, insets.top + 40, size.width, size.height);
+        editor.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 14));
+        editor.setBounds(insets.left + 20, insets.top + 40, size.width + 20, size.height);
         add(editor);
 
         JLabel outTmp = new JLabel();
         insets = outTmp.getInsets();
         outTmp.setText("Output Pane:");
         size = outTmp.getPreferredSize();
-        outTmp.setBounds(insets.left + 20, insets.top + 500, size.width, size.height );
+        outTmp.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 14));
+        outTmp.setBounds(insets.left + 20, insets.top + 500, size.width + 20, size.height );
         add(outTmp);
 
         output = new JLabel();
@@ -78,7 +80,8 @@ public class View extends JFrame {
         JLabel errorArea = new JLabel("Errors Pane:");
         insets = errorArea.getInsets();
         size = errorArea.getPreferredSize();
-        errorArea.setBounds(insets.left + 20, insets.top + 630, size.width, size.height);
+        errorArea.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 14));
+        errorArea.setBounds(insets.left + 20, insets.top + 630, size.width + 20, size.height);
         add(errorArea);
 
         errorPane = new JLabel();
@@ -95,7 +98,8 @@ public class View extends JFrame {
         run =  new JButton("Run");
         insets = run.getInsets();
         size = run.getPreferredSize();
-        run.setBounds(insets.left + 670, insets.top + 80, size.width + 30, size.height);
+        run.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 15));
+        run.setBounds(insets.left + 640, insets.top + 80, size.width + 80, size.height + 50);
         add(run);
 
         running = new JLabel("Running...");
