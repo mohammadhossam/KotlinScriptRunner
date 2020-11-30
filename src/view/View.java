@@ -1,9 +1,6 @@
 package view;
 
 import javax.swing.*;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.DefaultHighlighter;
-import javax.swing.text.Highlighter;
 import java.awt.*;
 
 public class View extends JFrame {
@@ -115,7 +112,7 @@ public class View extends JFrame {
         size = error.getPreferredSize();
         error.setForeground(Color.red);
         error.setFont(new Font(Font.DIALOG, Font.BOLD, 18));
-        error.setBounds(insets.left + 680, insets.top + 500, size.width, size.height + 100);
+        error.setBounds(insets.left + 680, insets.top + 630, size.width, size.height + 100);
         add(error);
         error.setVisible(false);
 
