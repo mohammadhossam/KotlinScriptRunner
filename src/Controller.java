@@ -29,8 +29,6 @@ public class Controller implements DocumentListener, ActionListener {
         runner = new Runner();
         view.getRun().addActionListener(this);
         view.getScriptArea().getDocument().addDocumentListener(this);
-        //view.getRunning().setVisible(false);
-        //view.getError().setVisible(false);
     }
 
     public static void main(String[] args) throws InterruptedException, BadLocationException {
